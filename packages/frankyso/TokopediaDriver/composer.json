@@ -1,0 +1,41 @@
+{
+    "name": "frankyso/tokopedia-driver",
+    "description": "Laravel Tokopedia Driver",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "eloquent",
+        "library",
+        "translate"
+    ],
+    "authors": [
+        {
+            "name": "Franky So",
+            "email": "frankyso.mail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Frankyso\\Tokopedia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Frankyso\\Tokopedia\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Frankyso\\Tokopedia\\TokopediaServiceProvider"
+            ]
+        }
+    }
+}
